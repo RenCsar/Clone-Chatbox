@@ -1,0 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: var(--Azul-TB);
+}
+
+:root {
+  --Azul-TB: #3f7de8;
+}
