@@ -3,5 +3,6 @@ let exit = document.querySelector('.exit');
 let livechat = document.querySelector('.livechat');
 
 bubble.addEventListener('click', () => {
-  livechat.classList.add('animate-chat')
+  //livechat.classList.add('animate-chat');
+  livechat.classList.toggle("animate-chat");
 });
