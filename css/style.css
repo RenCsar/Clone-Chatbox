@@ -65,6 +65,9 @@ body {
   bottom: 2.7em;
   right: 2em;
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container-bubble .bubble {
@@ -85,13 +88,13 @@ h4 {
   width: 10px;
 }
 .chat::-webkit-scrollbar-track {
-  background: var(--background-color);      /* color of the tracking area */
+  background: var(--background-color);
 }
 
 .chat::-webkit-scrollbar-thumb {
-  background-color: rgb(175, 174, 173);    /* color of the scroll thumb */
-  border-radius: 20px;       /* roundness of the scroll thumb */
-  border: 1px solid var(--background-color);  /* creates padding around scroll thumb */  
+  background-color: rgb(175, 174, 173);
+  border-radius: 20px;
+  border: 1px solid var(--background-color);
 }
 
 .content .chat {
@@ -100,7 +103,7 @@ h4 {
   overflow-y: scroll;
   background-color: var(--background-color);
   box-shadow: 0 -1px 12px 0 rgb(0 0 0 / 30%);
-  color: rgba(0, 0, 0, 0.6);  
+  color: rgba(0, 0, 0, 0.6);
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -110,7 +113,7 @@ h4 {
   width: 286px;
   background-color: var(--Branco);
   box-shadow: 0 -1px 12px 0 rgb(0 0 0 / 10%);
-  border-radius: 10px;  
+  border-radius: 10px;
   border-bottom-left-radius: 0px;
   margin: 2px 0px;
 }
@@ -119,7 +122,7 @@ h4 {
   padding: 8px 15px;
   border: 1px;
   border-radius: 10px;
-  border-bottom-left-radius: 0px;  
+  border-bottom-left-radius: 0px;
 }
 
 .hora-bot {
@@ -133,7 +136,7 @@ h4 {
   width: 50px;
   background-color: var(--Branco);
   box-shadow: 0 -1px 12px 0 rgb(0 0 0 / 10%);
-  border-radius: 10px;  
+  border-radius: 10px;
   border-bottom-right-radius: 0px;
   background-color: var(--Azul-TB);
   color: var(--Branco);
@@ -170,16 +173,16 @@ h4 {
   color: rgba(0, 0, 0, 0.4);
 }
 
-:-moz-placeholder { /* Firefox 18- */
-  color: rgba(0, 0, 0, 0.6); 
+:-moz-placeholder {
+  color: rgba(0, 0, 0, 0.6);
 }
 
-::-moz-placeholder {  /* Firefox 19+ */
-  color: rgba(0, 0, 0, 0.6);  
+::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.6);
 }
 
-:-ms-input-placeholder {  
-  color: rgba(0, 0, 0, 0.06); 
+:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.06);
 }
 
 .send-container input[type='submit'] {
@@ -200,4 +203,18 @@ h4 {
   to {
     clip-path: circle(100% at 50% 50%);
   }
+}
+
+.container-bubble p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 22px;
+  user-select: none;
+}
+.container-bubble .chat-fechado {
+  display: none;
+}
+
+.sumir-balao {
+  display: none;
 }
