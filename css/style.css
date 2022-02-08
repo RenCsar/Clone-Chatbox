@@ -26,7 +26,7 @@ body {
   background-color: var(--Branco);
   position: absolute;
   right: 3em;
-  bottom: 7.5em;
+  bottom: 8.5em;
   width: 75%;
   max-width: 400px;
   border-radius: 5px;
@@ -62,8 +62,8 @@ body {
   width: 48px;
   height: 48px;
   position: absolute;
-  bottom: 2.7em;
-  right: 2em;
+  bottom: 3.3em;
+  right: 3em;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -118,11 +118,32 @@ h4 {
   margin: 2px 0px;
 }
 
+.m-espaçamento {
+  margin-bottom: 4px;
+}
+
 .mensagem {
   padding: 8px 15px;
   border: 1px;
   border-radius: 10px;
   border-bottom-left-radius: 0px;
+}
+
+.mensagem-list p{
+text-align: center;
+}
+
+.mensagem-list a{
+  text-decoration: none;
+  color: var(--Azul-TB);
+}
+
+.mensagem-list hr {
+  margin: 10px -12px;
+  border: none;
+  height:1px; 
+  color:rgba(0, 0, 0, 0.06); 
+  background-color:rgba(0, 0, 0, 0.08);
 }
 
 .hora-bot {
