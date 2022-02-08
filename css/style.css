@@ -41,7 +41,6 @@ body {
   color: var(--Branco);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  box-shadow: 0 -1px 12px 0 rgb(0 0 0 / 40%);
 }
 
 .livechat .header .container-header-img {
@@ -81,21 +80,48 @@ h4 {
   font-size: 11px;
 }
 
+.chat::-webkit-scrollbar {
+  width: 10px;
+}
+.chat::-webkit-scrollbar-track {
+  background: var(--background-color);      /* color of the tracking area */
+}
+
+.chat::-webkit-scrollbar-thumb {
+  background-color: rgb(175, 174, 173);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 1px solid var(--background-color);  /* creates padding around scroll thumb */  
+}
+
 .content .chat {
-  padding: 16px 50px 10px 30px;
+  padding: 16px 30px 10px 50px;
   height: 300px;
   overflow-y: scroll;
+  background-color: var(--background-color);
+  box-shadow: 0 -1px 12px 0 rgb(0 0 0 / 30%);
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.mensagem-bot {
+  width: 286px;
+  background-color: var(--Branco);
+  box-shadow: 0 -1px 12px 0 rgb(0 0 0 / 10%);
+  border-radius: 10px;  
+  border-bottom-left-radius: 0px;
 }
 
 .mensagem {
-  width: 286px;
+  padding: 8px 15px;
+  border: 1px;
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  margin: 2px;
 }
 
 .send-container {
   display: grid;
   grid-template-columns: 80% auto;
   box-shadow: 0 -1px 12px 0 rgb(0 0 0 / 20%);
-  margin-top: 1em;
   height: 57px;
 }
 
@@ -103,6 +129,22 @@ h4 {
   padding: 1em;
   border: 1px;
   border-bottom-left-radius: 5px;
+}
+
+::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: rgba(0, 0, 0, 0.6); 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  color: rgba(0, 0, 0, 0.6);  
+}
+
+:-ms-input-placeholder {  
+  color: rgba(0, 0, 0, 0.06); 
 }
 
 .send-container input[type='submit'] {
