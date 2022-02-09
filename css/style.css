@@ -190,6 +190,10 @@ text-align: center;
   border-bottom-left-radius: 5px;
 }
 
+.send-container input[type='text'] textarea:focus, input:focus, select:focus {
+  outline: 0;
+}
+
 ::-webkit-input-placeholder {
   color: rgba(0, 0, 0, 0.4);
 }
