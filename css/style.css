@@ -179,9 +179,10 @@ text-align: center;
 
 .send-container {
   display: grid;
-  grid-template-columns: 90% auto;
+  grid-template-columns: 89% auto;
   box-shadow: 0 -1px 12px 0 rgb(0 0 0 / 20%);
   height: 57px;
+  background-color: #fff;
 }
 
 .send-container input[type='text'] {
@@ -224,7 +225,34 @@ text-align: center;
   cursor: pointer;
   width: 25px;
   height: 25px;
-  margin-top: 10px;
+  margin: 10px 0px 0px 8px;
+}
+
+.clip-remove {
+  display: none;
+}
+
+.send-container .enviar-container {
+  background-color: var(--Azul-TB);
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 10px 3px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.enviar-container img {
+  width: 20.8px;
+  height: 21.8px;
+  margin-top: 5px;
+}
+
+.send-container .enviar-hide {
+  display: none;
 }
 
 .animate-chat {
