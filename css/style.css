@@ -179,7 +179,7 @@ text-align: center;
 
 .send-container {
   display: grid;
-  grid-template-columns: 80% auto;
+  grid-template-columns: 90% auto;
   box-shadow: 0 -1px 12px 0 rgb(0 0 0 / 20%);
   height: 57px;
 }
@@ -210,11 +210,21 @@ text-align: center;
   color: rgba(0, 0, 0, 0.06);
 }
 
-.send-container input[type='submit'] {
+.send-container .clip-container{
   border: 1px;
+  height: 100%;
   background-color: var(--Branco);
   border-bottom-right-radius: 5px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.send-container .clip-container a img {
   cursor: pointer;
+  width: 25px;
+  height: 25px;
+  margin-top: 10px;
 }
 
 .animate-chat {
