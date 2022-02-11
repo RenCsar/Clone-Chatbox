@@ -129,11 +129,11 @@ h4 {
   border-bottom-left-radius: 0px;
 }
 
-.mensagem-list p{
-text-align: center;
+.mensagem-list p {
+  text-align: center;
 }
 
-.mensagem-list a{
+.mensagem-list a {
   text-decoration: none;
   color: var(--Azul-TB);
 }
@@ -141,9 +141,9 @@ text-align: center;
 .mensagem-list hr {
   margin: 10px -12px;
   border: none;
-  height:1px; 
-  color:rgba(0, 0, 0, 0.06); 
-  background-color:rgba(0, 0, 0, 0.08);
+  height: 1px;
+  color: rgba(0, 0, 0, 0.06);
+  background-color: rgba(0, 0, 0, 0.08);
 }
 
 .hora-bot {
@@ -191,7 +191,9 @@ text-align: center;
   border-bottom-left-radius: 5px;
 }
 
-.send-container input[type='text'] textarea:focus, input:focus, select:focus {
+.send-container input[type='text'] textarea:focus,
+input:focus,
+select:focus {
   outline: 0;
 }
 
@@ -211,7 +213,7 @@ text-align: center;
   color: rgba(0, 0, 0, 0.06);
 }
 
-.send-container .clip-container{
+.send-container .clip-container {
   border: 1px;
   height: 100%;
   background-color: var(--Branco);
