@@ -155,7 +155,6 @@ h4 {
 
 .mensagem-person {
   width: 50px;
-  background-color: var(--Branco);
   box-shadow: 0 -1px 12px 0 rgb(0 0 0 / 10%);
   border-radius: 10px;
   border-bottom-right-radius: 0px;
@@ -240,8 +239,6 @@ select:focus {
   width: 40px;
   height: 40px;
   border-radius: 100%;
-  display: flex;
-  justify-content: center;
   margin: 10px 3px 0px 0px;
   display: flex;
   align-items: center;
