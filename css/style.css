@@ -109,16 +109,27 @@ h4 {
   align-items: flex-end;
 }
 
+.pai-mensagem-bot {
+  display: flex;
+  align-items: flex-end;
+}
+.chat img {
+    width: 25px;
+  height: 25px;
+    border-radius: 100%;
+  margin: 0 5px 25px 0;
+}
+
 .mensagem-bot {
   width: 286px;
   background-color: var(--Branco);
   box-shadow: 0 -1px 12px 0 rgb(0 0 0 / 10%);
   border-radius: 10px;
   border-bottom-left-radius: 0px;
-  margin: 2px 0px;
+  margin: 4px 0px;
 }
 
-.m-espaçamento {
+.m-espacamento {
   margin-bottom: 4px;
 }
 
@@ -166,6 +177,8 @@ h4 {
   margin: 4px 0px;
   font-size: 10px;
   color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: flex-end;
 }
 
 .mensagem-p {
