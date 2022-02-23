@@ -124,12 +124,12 @@ h4 {
   width: 286px;
   background-color: var(--Branco);
   box-shadow: 0 -1px 12px 0 rgb(0 0 0 / 10%);
-  border-radius: 10px 10px 10px 0;
+  border-radius: 13px 13px 13px 2px;
   margin: 4px 0px;
 }
 
 .mensagem-bot2{
-  border-top-left-radius: 0;
+  border-top-left-radius: 2px;
 }
 
 .m-espacamento {
