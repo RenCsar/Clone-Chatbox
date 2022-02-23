@@ -98,7 +98,7 @@ h4 {
 }
 
 .content .chat {
-  padding: 16px 40px 10px 50px;
+  padding: 13px 40px 10px 50px;
   height: 410px;
   overflow-y: scroll;
   background-color: var(--background-color);
