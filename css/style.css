@@ -202,7 +202,7 @@ h4 {
 .send-container {
   display: grid;
   grid-template-columns: 89% auto;
-  box-shadow: 0 -1px 12px 0 rgb(0 0 0 / 20%),
+  box-shadow: 0 -1px 12px 0 rgb(0 0 0 / 20%);
   height: 57px;
   background-color: #fff;
   border-radius: 5px;
