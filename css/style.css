@@ -70,6 +70,7 @@ body {
   justify-content: center;
   cursor: pointer;
   z-index: 2;
+  animation: scale-up-center 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both; 
 }
 
 .container-bubble p {
@@ -325,5 +326,16 @@ select:focus {
   100% {
     transform: translateY(30px);
     opacity: 0;
+  }
+}
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
