@@ -22,12 +22,11 @@ body {
   background-color: var(--background-color);
 }
 
-
 .livechat {
   background-color: var(--Branco);
   position: absolute;
-  right: 3em;
-  bottom: 8.9em;
+  right: 48px;
+  bottom: 110px;
   width: 75%;
   max-width: 400px;
   border-radius: 5px;
@@ -68,8 +67,9 @@ body {
   border-radius: 50%;
   display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
   cursor: pointer;
+  z-index: 2;
 }
 
 .container-bubble p {
@@ -144,7 +144,7 @@ h4 {
   margin: 4px 0px;
 }
 
-.mensagem-bot2{
+.mensagem-bot2 {
   border-top-left-radius: 2px;
 }
 
@@ -159,7 +159,7 @@ h4 {
   border-bottom-left-radius: 0px;
 }
 
-.mensagem span{
+.mensagem span {
   color: blue;
 }
 
@@ -294,14 +294,13 @@ select:focus {
   display: none;
 }
 
-
 .active-chat {
-  animation:  grow-chat 0.8s cubic-bezier(0.200, 0.40, 0.4, 0.9) both;
+  animation: grow-chat 0.8s cubic-bezier(0.2, 0.4, 0.4, 0.9) both;
   display: block;
 }
 
 .desactive-chat {
-  animation:  contract-chat 0.8s cubic-bezier(0.200, 0.40, 0.4, 0.9) both;
+  animation: contract-chat 0.8s cubic-bezier(0.2, 0.4, 0.4, 0.9) both;
   display: block;
 }
 
@@ -313,7 +312,7 @@ select:focus {
 
   100% {
     transform: translateY(-40px);
-    opacity: 1;    
+    opacity: 1;
   }
 }
 
@@ -325,6 +324,6 @@ select:focus {
 
   100% {
     transform: translateY(30px);
-    opacity: 0;    
+    opacity: 0;
   }
 }
