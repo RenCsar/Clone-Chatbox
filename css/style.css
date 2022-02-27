@@ -28,10 +28,10 @@ body {
   right: 48px;
   bottom: 110px;
   width: 75%;
+  height: 500px;
   max-width: 400px;
   border-radius: 5px;
   box-shadow: 0 -1px 12px 0 rgb(0 0 0 / 20%);
-  height: 500px;
   display: none;
 }
 
@@ -49,12 +49,12 @@ body {
   height: 35px;
   margin-left: 0.5em;
   margin-right: 1rem;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 
 .livechat .header .container-header-img img {
   width: 100%;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 
 .bt {
@@ -70,7 +70,7 @@ body {
   justify-content: center;
   cursor: pointer;
   z-index: 2;
-  animation: scale-up-center 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both; 
+  animation: scale-up-center 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
 .container-bubble p {
@@ -332,10 +332,10 @@ select:focus {
 @keyframes scale-up-center {
   0% {
     -webkit-transform: scale(0.5);
-            transform: scale(0.5);
+    transform: scale(0.5);
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
