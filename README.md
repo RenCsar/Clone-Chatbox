@@ -12,10 +12,9 @@
 
 <br>
 
-
-<h1 align="center">  
+ <h1 align="center">  
   <p align="center">
-  <img width="800" height="400" src="Assents/Clone-chat.gif"><br><br>
+  <img width="700" height="400" src="Assents/Clone-chat.gif"><br><br>
 </p>
 
 </h1>
