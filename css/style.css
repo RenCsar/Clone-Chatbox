@@ -37,6 +37,7 @@ body {
 
 .livechat .header {
   background-color: var(--Azul-TB);
+  height: 55px;
   padding: 0.45em;
   display: flex;
   color: var(--Branco);
