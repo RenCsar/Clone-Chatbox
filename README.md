@@ -1,4 +1,4 @@
-<h1 align="center">Clone Live Bot</h1>
+<h1 align="center">Clone Chatbot</h1>
 
 <p align="center">Clone do layout do chatbot da TakeBlip.</p>
 
@@ -12,6 +12,8 @@
 
 <br>
 
+<p align="center">Chatbot da TakeBlip <b><i>à esquerda</i></b> e clone <b><i>à direita</i></b>.</p>
+ 
  <h1 align="center">  
   <p align="center">
   <img width="700" height="400" src="Assents/Clone-chat.gif"><br><br>
