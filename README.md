@@ -1,4 +1,4 @@
-<h1 align="center">Clone Live Chat</h1>
+<h1 align="center">Clone Live Bot</h1>
 
 <p align="center">Clone do layout do chatbot da TakeBlip.</p>
 
