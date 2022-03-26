@@ -27,6 +27,8 @@
 A fim de por em prática meus estudos de frontend, decidi clonar o layout do chat box da [Take Blip](https://www.take.net/).
 Ao longo dessa tarefa pude exercitar, relembrar e aprender coisas como: box model, containers, Flexbox, variáveis CSS e outros.
 
+Gostaria de destacar que apenas o layout foi clonado, **não há interação e nem troca de mensagens**.
+
 Para conseguir as informações sobre os estilos aplicados no chatbot e me aproximar o máximo possível do layout original utilizei o inspecionar elementos do navegador. Porém, alguns estilos como as animações para abrir e fechar o chat tive que buscar na internet.
 
 
