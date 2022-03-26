@@ -25,7 +25,10 @@
 ### Descrição
 
 A fim de por em prática meus estudos de frontend, decidi clonar o layout do chat box da [Take Blip](https://www.take.net/).
-Para conseguir as informações sobre os estilos aplicados no chatbot e me aproximar o máximo possível do layout original utilizei o inspecionar elementos do navegador, porém, alguns estilos como as animações de abrir e fechar do chat tive que buscar na internet.
+Ao longo dessa tarefa pude exercitar, relembrar e aprender coisas como: box model, containers, Flexbox, variáveis CSS e outros.
+
+Para conseguir as informações sobre os estilos aplicados no chatbot e me aproximar o máximo possível do layout original utilizei o inspecionar elementos do navegador. Porém, alguns estilos como as animações para abrir e fechar o chat tive que buscar na internet.
+
 
 Esse projeto faz parte do [bootcamp Web Developer](https://www.dio.me/certificate/E98EA5EB) realizado pela parceria entre [Take Blip](https://www.take.net/), [Órbi Conecta](https://orbi.co/) e [DIO](https://www.dio.me/). Através dele, e com a orientação do professor [Felipe Silva Aguiar](https://www.linkedin.com/in/felipe-aguiar-047/), pude recriar a interface de uma plataforma de streaming de vídeos. <b font-weigth="700">O objetivo do projeto é educacional</b>. Sua finalidade é demonstrar o quê podemos fazer utilizando tecnologias simples como HTML5, CSS3 e JavaScript.
 
