@@ -31,6 +31,12 @@ Ao longo dessa tarefa pude exercitar, relembrar e aprender coisas como: `box mod
 
 Para conseguir as informações sobre os estilos aplicados no chatbot e me aproximar o máximo possível do layout original utilizei o inspecionar elementos do navegador. Porém, alguns estilos como as animações para abrir e fechar o chat tive que buscar na internet.
 
+No que tange ao funcionamento nos restringimos apenas às ações de abrir e fechar o chat e a mudança de botão caso algo seja digitado no `input` de texto.
+
+A princípio o chat fica oculto através da propriedade `display: none`, e quando clicamos no balão ocorrem duas ações: primeiro o desenho do botão muda de balão para um “x” ao mesmo tempo que acrescentamos uma classe que habilita o display e torna o chat visível. No JS utilizamos o `addEventListener` para detectar o evento “click” e executar as `Arrow Function` assim que o evento ocorrer.
+
+De forma semelhante o botão de enviar, que é alterado assim que escrevemos alguma coisa, também funciona com `addEventListener` e adiciona uma classe com `display: none`. A diferença é que fazemos uma verificação (`if` e `else`) para saber se algo foi digitado no input de texto.
+
 Pendências do projeto:
 
 - Responsividade;
