@@ -28,6 +28,7 @@ A fim de por em prática meus estudos de frontend, decidi clonar o layout do cha
 Gostaria de destacar que apenas o layout foi clonado, **não há interação e nem troca de mensagens**.
 
 Ao longo dessa tarefa pude exercitar, relembrar e aprender coisas como: `box model`, `containers` e `Flexbox`, também importei fonte do google fonts, fiz um pequeno `reset` em algumas propriedades do CSS e usei `variáveis` CSS para facilitar a alteração de cores.
+
 Para conseguir as informações sobre os estilos aplicados no chatbot e me aproximar o máximo possível do layout original utilizei o inspecionar elementos do navegador. Porém, alguns estilos como as animações para abrir e fechar o chat tive que buscar na internet.
 
 
