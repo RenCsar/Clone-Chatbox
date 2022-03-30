@@ -31,6 +31,17 @@ Ao longo dessa tarefa pude exercitar, relembrar e aprender coisas como: `box mod
 
 Para conseguir as informações sobre os estilos aplicados no chatbot e me aproximar o máximo possível do layout original utilizei o inspecionar elementos do navegador. Porém, alguns estilos como as animações para abrir e fechar o chat tive que buscar na internet.
 
+Pendências do projeto:
+
+- Responsividade;
+- Tornar o CSS menos verboso;
+- Melhorar os nomes de classes e id’s;
+- Tentar usar um pre-processador CSS para torná-lo menos verboso;
+- Reaproveitar classes;
+- Consertar o box-shadow da parte inferior do container do chat.
+
+
+Caso tenha alguma dica ou conselho, fique à vontade para contribuir.
 
 
 <a id="Tecnologias"></a>
