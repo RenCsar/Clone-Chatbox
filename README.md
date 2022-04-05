@@ -45,6 +45,7 @@ Pendências do projeto:
 - Tentar usar um pre-processador CSS para torná-lo menos verboso;
 - Reaproveitar classes;
 - Consertar o box-shadow da parte inferior do container do chat.
+-
 
 
 Caso tenha alguma dica ou conselho, fique à vontade para contribuir.
